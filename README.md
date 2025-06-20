@@ -6,18 +6,10 @@ This project collects vibration data using an MPU9250 sensor with Arduino and an
 
 🔧 Arduino
 The Arduino sketch logs accelerometer data (X, Y, Z) from the MPU9250 sensor onto an SD card.
-
-📁 arduino/
-• CVS_590_Sensor_code.ino
-
 Requires libraries: MPU9250_asukiaaa, SD, SPI, Wire
 
 🐍 Python
 The Python script reads the logged data and applies CWT to extract average peak frequencies over time.
-
-📁 python/
-• cwt_peak_frequency.py
-
 Requires: numpy, matplotlib, pywt (PyWavelets)
 
 📈 Output
